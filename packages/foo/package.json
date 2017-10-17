@@ -14,6 +14,11 @@
   },
   "jest": {
     "verbose": true,
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "./tsconfig.test.json"
+      }
+    },
     "transform": {
       "^.+\\.tsx?$": "ts-jest/preprocessor.js"
     },
