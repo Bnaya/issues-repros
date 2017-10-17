@@ -1,7 +1,7 @@
 import foo from "../src/index";
 
 describe("Test foo", () => {
-  test("Foo", () => {
+  describe("Foo", () => {
     it("foo", () => {
       expect(foo()).toEqual(1);
     });
