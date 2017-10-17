@@ -1,0 +1,11 @@
+{
+  "name": "issues-repros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Bnaya/issues-repros.git",
+  "author": "Bnaya Peretz <bnaya@brandtotal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
