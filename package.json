@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/async-retry": "^1.1.0",
+    "@types/retry": "^0.10.2",
+    "async-retry": "^1.1.4",
+    "retry": "^0.10.1",
+    "retry-async": "^1.1.0",
+    "typescript": "^2.7.2"
+  }
+}
