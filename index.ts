@@ -1,5 +1,5 @@
 import * as retry from "retry";
-import * as retryAsync from "async-retry";
+import retryAsync = require("async-retry");
 
 console.log(retry);
 console.log(retry.createTimeout);
