@@ -7,5 +7,9 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "@types/web3": "^1.0.3",
+    "web3": "^1.0.0-beta.36"
   }
 }

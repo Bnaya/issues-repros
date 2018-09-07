@@ -1,6 +1,10 @@
-// @ts-ignore
-import { b } from "asd";
+import web3 = require("web3")
 
 export function a() {
-  return b();
+  const w = new web3()
+  if (w.eth.defaultBlock === "pending") {
+    return true
+  }
+
+  return false
 }

@@ -1,12 +1,12 @@
 import { a } from "../src/a";
 
 jest.mock(
-  "asd",
+  "web3",
   () => {
-    return {
-      b: () => {
-        return "the Mocked b";
-      }
+    return class Web3ClassMock {
+      public eth = {
+        defaultBlock: "pending"
+      };
     };
   },
   { virtual: true }
@@ -14,8 +14,6 @@ jest.mock(
 
 describe("Test a", () => {
   test("bla", () => {
-
-
-    expect(a()).toBe("the Mocked b");
+    expect(a()).toEqual(true);
   });
 });
