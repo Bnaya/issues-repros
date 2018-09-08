@@ -1,0 +1,14 @@
+{
+  "name": "rsjxplay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.1"
+  }
+}
